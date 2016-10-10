@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840A55C01DAA3A5E00A7E37C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A55BF1DAA3A5E00A7E37C /* main.m */; };
+		840A55C31DAA3A5E00A7E37C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A55C21DAA3A5E00A7E37C /* AppDelegate.m */; };
+		840A55C61DAA3A5E00A7E37C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A55C51DAA3A5E00A7E37C /* ViewController.m */; };
+		840A55C91DAA3A5E00A7E37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840A55C71DAA3A5E00A7E37C /* Main.storyboard */; };
+		840A55CB1DAA3A5E00A7E37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840A55CA1DAA3A5E00A7E37C /* Assets.xcassets */; };
+		840A55CE1DAA3A5E00A7E37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840A55CC1DAA3A5E00A7E37C /* LaunchScreen.storyboard */; };
+		840A55D81DAA3AFB00A7E37C /* UIWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A55D71DAA3AFB00A7E37C /* UIWaveView.m */; };
+		844A42081DAB6E3400F2C3B6 /* WaterProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A42071DAB6E3400F2C3B6 /* WaterProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		840A55BB1DAA3A5E00A7E37C /* WaveViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840A55BF1DAA3A5E00A7E37C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840A55C11DAA3A5E00A7E37C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840A55C21DAA3A5E00A7E37C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840A55C41DAA3A5E00A7E37C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		840A55C51DAA3A5E00A7E37C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		840A55C81DAA3A5E00A7E37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840A55CA1DAA3A5E00A7E37C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840A55CD1DAA3A5E00A7E37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840A55CF1DAA3A5E00A7E37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840A55D61DAA3AFB00A7E37C /* UIWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWaveView.h; sourceTree = "<group>"; };
+		840A55D71DAA3AFB00A7E37C /* UIWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWaveView.m; sourceTree = "<group>"; };
+		844A42061DAB6E3400F2C3B6 /* WaterProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterProgressView.h; sourceTree = "<group>"; };
+		844A42071DAB6E3400F2C3B6 /* WaterProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840A55B81DAA3A5E00A7E37C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840A55B21DAA3A5E00A7E37C = {
+			isa = PBXGroup;
+			children = (
+				840A55BD1DAA3A5E00A7E37C /* WaveViewTest */,
+				840A55BC1DAA3A5E00A7E37C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840A55BC1DAA3A5E00A7E37C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840A55BB1DAA3A5E00A7E37C /* WaveViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840A55BD1DAA3A5E00A7E37C /* WaveViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				840A55D51DAA3ACF00A7E37C /* wave */,
+				840A55C11DAA3A5E00A7E37C /* AppDelegate.h */,
+				840A55C21DAA3A5E00A7E37C /* AppDelegate.m */,
+				840A55C41DAA3A5E00A7E37C /* ViewController.h */,
+				840A55C51DAA3A5E00A7E37C /* ViewController.m */,
+				840A55C71DAA3A5E00A7E37C /* Main.storyboard */,
+				840A55CA1DAA3A5E00A7E37C /* Assets.xcassets */,
+				840A55CC1DAA3A5E00A7E37C /* LaunchScreen.storyboard */,
+				840A55CF1DAA3A5E00A7E37C /* Info.plist */,
+				840A55BE1DAA3A5E00A7E37C /* Supporting Files */,
+				844A42061DAB6E3400F2C3B6 /* WaterProgressView.h */,
+				844A42071DAB6E3400F2C3B6 /* WaterProgressView.m */,
+			);
+			path = WaveViewTest;
+			sourceTree = "<group>";
+		};
+		840A55BE1DAA3A5E00A7E37C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840A55BF1DAA3A5E00A7E37C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840A55D51DAA3ACF00A7E37C /* wave */ = {
+			isa = PBXGroup;
+			children = (
+				840A55D61DAA3AFB00A7E37C /* UIWaveView.h */,
+				840A55D71DAA3AFB00A7E37C /* UIWaveView.m */,
+			);
+			path = wave;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840A55BA1DAA3A5E00A7E37C /* WaveViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840A55D21DAA3A5E00A7E37C /* Build configuration list for PBXNativeTarget "WaveViewTest" */;
+			buildPhases = (
+				840A55B71DAA3A5E00A7E37C /* Sources */,
+				840A55B81DAA3A5E00A7E37C /* Frameworks */,
+				840A55B91DAA3A5E00A7E37C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveViewTest;
+			productName = WaveViewTest;
+			productReference = 840A55BB1DAA3A5E00A7E37C /* WaveViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840A55B31DAA3A5E00A7E37C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					840A55BA1DAA3A5E00A7E37C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 840A55B61DAA3A5E00A7E37C /* Build configuration list for PBXProject "WaveViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840A55B21DAA3A5E00A7E37C;
+			productRefGroup = 840A55BC1DAA3A5E00A7E37C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840A55BA1DAA3A5E00A7E37C /* WaveViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840A55B91DAA3A5E00A7E37C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840A55CE1DAA3A5E00A7E37C /* LaunchScreen.storyboard in Resources */,
+				840A55CB1DAA3A5E00A7E37C /* Assets.xcassets in Resources */,
+				840A55C91DAA3A5E00A7E37C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840A55B71DAA3A5E00A7E37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840A55C61DAA3A5E00A7E37C /* ViewController.m in Sources */,
+				844A42081DAB6E3400F2C3B6 /* WaterProgressView.m in Sources */,
+				840A55C31DAA3A5E00A7E37C /* AppDelegate.m in Sources */,
+				840A55C01DAA3A5E00A7E37C /* main.m in Sources */,
+				840A55D81DAA3AFB00A7E37C /* UIWaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		840A55C71DAA3A5E00A7E37C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840A55C81DAA3A5E00A7E37C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840A55CC1DAA3A5E00A7E37C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840A55CD1DAA3A5E00A7E37C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840A55D01DAA3A5E00A7E37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840A55D11DAA3A5E00A7E37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840A55D31DAA3A5E00A7E37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.best.WaveViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		840A55D41DAA3A5E00A7E37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.best.WaveViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840A55B61DAA3A5E00A7E37C /* Build configuration list for PBXProject "WaveViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840A55D01DAA3A5E00A7E37C /* Debug */,
+				840A55D11DAA3A5E00A7E37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840A55D21DAA3A5E00A7E37C /* Build configuration list for PBXNativeTarget "WaveViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840A55D31DAA3A5E00A7E37C /* Debug */,
+				840A55D41DAA3A5E00A7E37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840A55B31DAA3A5E00A7E37C /* Project object */;
+}
