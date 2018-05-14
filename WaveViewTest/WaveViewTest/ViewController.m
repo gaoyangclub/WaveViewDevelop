@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIWaveView.h"
 #import "WaterProgressView.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 
